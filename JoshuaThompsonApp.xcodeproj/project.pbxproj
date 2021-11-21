@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D007B00274AD41100953D57 /* DetailAnimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D007AFF274AD41100953D57 /* DetailAnimeView.swift */; };
+		5D2BA57427488A220069268B /* AnimeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2BA57327488A220069268B /* AnimeData.swift */; };
+		5D2BA57627488C460069268B /* AnimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2BA57527488C460069268B /* AnimeViewModel.swift */; };
+		5D2BA57827488FEB0069268B /* AnimeListThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2BA57727488FEB0069268B /* AnimeListThing.swift */; };
 		5DA2558C2747EAE70001AC6F /* JoshuaThompsonAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2558B2747EAE70001AC6F /* JoshuaThompsonAppApp.swift */; };
 		5DA2558E2747EAE70001AC6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2558D2747EAE70001AC6F /* ContentView.swift */; };
 		5DA255902747EAE80001AC6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA2558F2747EAE80001AC6F /* Assets.xcassets */; };
 		5DA255932747EAE80001AC6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA255922747EAE80001AC6F /* Preview Assets.xcassets */; };
+		5DA2559A2747EB400001AC6F /* FavAnimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA255992747EB400001AC6F /* FavAnimes.swift */; };
+		5DA2559C2747EDEB0001AC6F /* MainJoshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2559B2747EDEB0001AC6F /* MainJoshView.swift */; };
+		5DA2559E274802A80001AC6F /* DedicatedPuffSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2559D274802A80001AC6F /* DedicatedPuffSection.swift */; };
+		5DFA908D274AE08100253D77 /* Grandeur.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DFA908A274AE08100253D77 /* Grandeur.mp3 */; };
+		5DFA908E274AE08100253D77 /* Unravel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DFA908B274AE08100253D77 /* Unravel.mp3 */; };
+		5DFA908F274AE08100253D77 /* BlackCatcher.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DFA908C274AE08100253D77 /* BlackCatcher.mp3 */; };
+		5DFA9093274AE0B400253D77 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFA9092274AE0B400253D77 /* Song.swift */; };
+		5DFA9096274AE3A200253D77 /* SongRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFA9095274AE3A200253D77 /* SongRow.swift */; };
+		5DFA9098274AE4CF00253D77 /* SongLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFA9097274AE4CF00253D77 /* SongLayout.swift */; };
+		5DFA909A274AE4DC00253D77 /* DetailViewSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFA9099274AE4DC00253D77 /* DetailViewSong.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D007AFF274AD41100953D57 /* DetailAnimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAnimeView.swift; sourceTree = "<group>"; };
+		5D2BA57327488A220069268B /* AnimeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeData.swift; sourceTree = "<group>"; };
+		5D2BA57527488C460069268B /* AnimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeViewModel.swift; sourceTree = "<group>"; };
+		5D2BA57727488FEB0069268B /* AnimeListThing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListThing.swift; sourceTree = "<group>"; };
 		5DA255882747EAE70001AC6F /* JoshuaThompsonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoshuaThompsonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA2558B2747EAE70001AC6F /* JoshuaThompsonAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoshuaThompsonAppApp.swift; sourceTree = "<group>"; };
 		5DA2558D2747EAE70001AC6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5DA2558F2747EAE80001AC6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DA255922747EAE80001AC6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DA255992747EB400001AC6F /* FavAnimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavAnimes.swift; sourceTree = "<group>"; };
+		5DA2559B2747EDEB0001AC6F /* MainJoshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainJoshView.swift; sourceTree = "<group>"; };
+		5DA2559D274802A80001AC6F /* DedicatedPuffSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DedicatedPuffSection.swift; sourceTree = "<group>"; };
+		5DFA908A274AE08100253D77 /* Grandeur.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Grandeur.mp3; sourceTree = "<group>"; };
+		5DFA908B274AE08100253D77 /* Unravel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Unravel.mp3; sourceTree = "<group>"; };
+		5DFA908C274AE08100253D77 /* BlackCatcher.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BlackCatcher.mp3; sourceTree = "<group>"; };
+		5DFA9092274AE0B400253D77 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		5DFA9095274AE3A200253D77 /* SongRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRow.swift; sourceTree = "<group>"; };
+		5DFA9097274AE4CF00253D77 /* SongLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongLayout.swift; sourceTree = "<group>"; };
+		5DFA9099274AE4DC00253D77 /* DetailViewSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewSong.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +60,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D2BA57227488A0E0069268B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D2BA57327488A220069268B /* AnimeData.swift */,
+				5D2BA57527488C460069268B /* AnimeViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5DA2557F2747EAE70001AC6F = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +88,17 @@
 		5DA2558A2747EAE70001AC6F /* JoshuaThompsonApp */ = {
 			isa = PBXGroup;
 			children = (
-				5DA2558B2747EAE70001AC6F /* JoshuaThompsonAppApp.swift */,
+				5DFA9090274AE09100253D77 /* MusicPlayerSection */,
+				5DFA9089274AE06300253D77 /* Audio */,
+				5DFA9088274ADE3500253D77 /* View */,
+				5DA255992747EB400001AC6F /* FavAnimes.swift */,
+				5DA2559B2747EDEB0001AC6F /* MainJoshView.swift */,
 				5DA2558D2747EAE70001AC6F /* ContentView.swift */,
+				5DA2559D274802A80001AC6F /* DedicatedPuffSection.swift */,
+				5D007AFF274AD41100953D57 /* DetailAnimeView.swift */,
+				5D2BA57727488FEB0069268B /* AnimeListThing.swift */,
+				5DA2558B2747EAE70001AC6F /* JoshuaThompsonAppApp.swift */,
+				5D2BA57227488A0E0069268B /* Model */,
 				5DA2558F2747EAE80001AC6F /* Assets.xcassets */,
 				5DA255912747EAE80001AC6F /* Preview Content */,
 			);
@@ -65,6 +111,50 @@
 				5DA255922747EAE80001AC6F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5DFA9088274ADE3500253D77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5DFA9089274AE06300253D77 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				5DFA908C274AE08100253D77 /* BlackCatcher.mp3 */,
+				5DFA908A274AE08100253D77 /* Grandeur.mp3 */,
+				5DFA908B274AE08100253D77 /* Unravel.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		5DFA9090274AE09100253D77 /* MusicPlayerSection */ = {
+			isa = PBXGroup;
+			children = (
+				5DFA9094274AE34C00253D77 /* View */,
+				5DFA9091274AE0A300253D77 /* Model */,
+			);
+			path = MusicPlayerSection;
+			sourceTree = "<group>";
+		};
+		5DFA9091274AE0A300253D77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DFA9092274AE0B400253D77 /* Song.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5DFA9094274AE34C00253D77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5DFA9095274AE3A200253D77 /* SongRow.swift */,
+				5DFA9097274AE4CF00253D77 /* SongLayout.swift */,
+				5DFA9099274AE4DC00253D77 /* DetailViewSong.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +216,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DA255932747EAE80001AC6F /* Preview Assets.xcassets in Resources */,
+				5DFA908D274AE08100253D77 /* Grandeur.mp3 in Resources */,
+				5DFA908E274AE08100253D77 /* Unravel.mp3 in Resources */,
 				5DA255902747EAE80001AC6F /* Assets.xcassets in Resources */,
+				5DFA908F274AE08100253D77 /* BlackCatcher.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +230,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DA2559A2747EB400001AC6F /* FavAnimes.swift in Sources */,
+				5DA2559C2747EDEB0001AC6F /* MainJoshView.swift in Sources */,
+				5D2BA57427488A220069268B /* AnimeData.swift in Sources */,
 				5DA2558E2747EAE70001AC6F /* ContentView.swift in Sources */,
+				5DFA9093274AE0B400253D77 /* Song.swift in Sources */,
 				5DA2558C2747EAE70001AC6F /* JoshuaThompsonAppApp.swift in Sources */,
+				5DFA9098274AE4CF00253D77 /* SongLayout.swift in Sources */,
+				5DA2559E274802A80001AC6F /* DedicatedPuffSection.swift in Sources */,
+				5D007B00274AD41100953D57 /* DetailAnimeView.swift in Sources */,
+				5D2BA57627488C460069268B /* AnimeViewModel.swift in Sources */,
+				5DFA9096274AE3A200253D77 /* SongRow.swift in Sources */,
+				5DFA909A274AE4DC00253D77 /* DetailViewSong.swift in Sources */,
+				5D2BA57827488FEB0069268B /* AnimeListThing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

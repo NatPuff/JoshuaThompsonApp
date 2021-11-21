@@ -8,14 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+    let song: Song
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        TabView{
+            NavigationView{
+            MainJoshView()
+                    .navigationTitle("The Joshua Thompson")
+            }
+                    .tabItem{
+                        Text("Bruh")
+                    }
+            FavAnimes()
+                .tabItem {
+                    Text("lol")
+                    
+                }
+       DedicatedPuffSection()
+                .tabItem{
+                    Text("Cring")
+                }
+          PlaylistView()
+                .tabItem{
+                    Text("Music")
+                }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(song: .init())
     }
 }
