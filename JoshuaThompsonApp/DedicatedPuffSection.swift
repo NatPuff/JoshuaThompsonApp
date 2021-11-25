@@ -9,9 +9,11 @@ import SwiftUI
 
 struct DedicatedPuffSection: View {
     var body: some View {
-        Image("Puffs")
+        Image("Puffback")
             .resizable()
             .scaledToFit()
+            .frame(width: 500, height: 900)
+            .ignoresSafeArea()
            
         
     }

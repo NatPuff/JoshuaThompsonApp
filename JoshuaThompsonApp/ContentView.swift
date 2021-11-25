@@ -10,27 +10,28 @@ import SwiftUI
 struct ContentView: View {
     let song: Song
     var body: some View {
-        
         TabView{
-            NavigationView{
+            
             MainJoshView()
-                    .navigationTitle("The Joshua Thompson")
-            }
                     .tabItem{
-                        Text("Bruh")
+                        Text("Overview")
+                            .font(.title3)
                     }
             FavAnimes()
                 .tabItem {
-                    Text("lol")
+                    Text("Anime")
+                        .bold()
                     
                 }
        DedicatedPuffSection()
                 .tabItem{
-                    Text("Cring")
+                    Text("Jigglypuff")
+                        .bold()
                 }
           PlaylistView()
                 .tabItem{
                     Text("Music")
+                        .bold()
                 }
         }
     }

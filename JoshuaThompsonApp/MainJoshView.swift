@@ -9,33 +9,37 @@ import SwiftUI
 
 struct MainJoshView: View {
     var body: some View {
-       
-        
-           
-    
-               
-            VStack(alignment:.leading) {
-                    Spacer()
-                    .frame(height: 100, alignment: .top)
-                    Text("Height: 5'9")
-                    .padding(.bottom)
-                    Text("Eye Color: Brown")
-                        .padding(.bottom)
-                    Text("Fav Color: Blue")
-                        .padding(.bottom)
-                    Text("Fav Food: Hot Dogs")
-                        .padding(.bottom)
-                    Spacer()
-                        .frame(height: 120)
-                    Image("OhNo")
-                        .resizable()
-                        .padding()
-                        .scaledToFit()
-                        .frame(width: 400, height: 400)
-               
-                        .frame(maxHeight: .infinity, alignment: .bottom)
-                        .ignoresSafeArea()
+        NavigationView {
+            ZStack {
+          
+                VStack(alignment:.leading) {
+                           Spacer()
+                        .frame(height: 60, alignment: .bottom)
+                            Text("Height: 5'9")
+                        .padding(.top)
+                        .foregroundColor(Color.black)
+                            .padding(.bottom)
+                            Text("Eye Color: Brown")
+                        .foregroundColor(Color.black)
+                                .padding(.bottom)
+                            Text("Fav Color: Blue")
+                        .foregroundColor(Color.black)
+                                .padding(.bottom)
+                            Text("Fav Food: Hot Dogs")
+                        .foregroundColor(Color.black)
+                                .padding(.bottom)
+                            Spacer()
+                        .frame(height: 150, alignment: .top)
+                            Image("OhNo")
+                                .resizable()
+                                .padding()
+                                .scaledToFit()
+                                .frame(width: 400, height: 400)
+                                
 
+                }
+            }
+            .navigationTitle("The Josh Thompson")
         }
     }
 }

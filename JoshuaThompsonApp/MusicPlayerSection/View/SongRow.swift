@@ -28,9 +28,8 @@ struct PlaylistView: View {
         NavigationView{
         List(playlist.songs) { song in
             SongRow(song: song)
-                
+                .navigationTitle("Josh's Music")
         }
-        .navigationTitle("Josh")
         }
     }
 }
@@ -45,6 +44,7 @@ struct SongRow_Previews: PreviewProvider {
         PlaylistView()
             SongRow(song: playlist.songs.first!)
         }
+    
     }
 }
 

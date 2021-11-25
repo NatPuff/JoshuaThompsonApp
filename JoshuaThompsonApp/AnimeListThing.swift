@@ -22,6 +22,7 @@ struct AnimeListThing: View {
                 .scaledToFit()
                 .frame(width: 200, height: 200)
             Text(data.Anime)
+                .navigationBarTitle("Josh's Anime (Cring)")
         }
         }
     }
